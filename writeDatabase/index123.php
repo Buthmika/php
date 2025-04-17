@@ -8,9 +8,18 @@
 </head>
 <body>
       <form action="register.php" method='post'>
-            <label for="">First Name</label><input type="text" name="firstName" placeholder="First Name"><br>
-            <label for="">Last Name</label><input type="text" name="lastName" placeholder="Last Name"><br>
-            <label for="">Email</label><input type="email" name="email" placeholder="Email"><br>
+            <label for="">First Name</label>
+            <div class="fname">
+                  <input type="text" name="firstName" placeholder="First Name">
+            </div>
+            <label for="">Last Name</label>
+            <div class="sname">
+                  <input type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <label for="">Email</label>
+            <div class="email">
+                  <input type="email" name="email" placeholder="Email">
+            </div>
             <button type='submit' name='Register'>Register</button>
       </form>
 </body>
