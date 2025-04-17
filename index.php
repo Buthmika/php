@@ -7,9 +7,6 @@
       <title>Document</title>
 </head>
 <body>
-      <ul>
-            <li><a href="user.php">User</a></li>
-            echo $_SESSION['user'];
-      </ul>
+      
 </body>
 </html>
