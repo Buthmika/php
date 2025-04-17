@@ -4,10 +4,10 @@
       box-sizing: border-box;
 }
 label{
-      display: inline-block;
+      
 }
  input {
-      padding: 5px;
-      width: 200px;
-      margin-left: 100px;
+      
+     flex-direction: row;
+     width: 200px;
   }
