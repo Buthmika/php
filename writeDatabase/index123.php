@@ -6,10 +6,11 @@
       <title>Document</title>
 </head>
 <body>
-      <form action=""metod='get'>
+      <form action="register.php" method='post'>
             First Name<input type="text" name="firstName" placeholder="First Name"><br>
             Last Name<input type="text" name="lastName" placeholder="Last Name"><br>
             Email<input type="email" name="email" placeholder="Email"><br>
+            <button type='submit' name='Register'>Register</button>
       </form>
 </body>
 </html>
