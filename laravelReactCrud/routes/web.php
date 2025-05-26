@@ -13,6 +13,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return Inertia::render('dashboard');
     })->name('dashboard');
     Route:: get('/products',[ProductController:: class,'index'])->name('products.index');
+    Route::get('/products/create',[ProductController:: class,'create'])->name('product.create');
 });
 
 require __DIR__.'/settings.php';
