@@ -16,11 +16,15 @@ export default function Index() {
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Create New Product" />
-            <div className='w-8/12 p-4'>
+            <div className="w-8/12 p-4">
                 <form action="">
-                    <div>
+                    <div className="gap-1.5">
                         <Label htmlFor="Product Name">Name</Label>
-                        <Input placeholder='Product Name'></Input>
+                        <Input placeholder="Product Name"></Input>
+                    </div>
+                    <div className="gap-1.5">
+                        <Label htmlFor="Product Price">Price</Label>
+                        <Input placeholder="Product Price"></Input>
                     </div>
                 </form>
             </div>
