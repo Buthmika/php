@@ -21,7 +21,7 @@ export default function Index() {
     });
     const handleSubmit=(e:React.FormEvent)=>{
         e.preventDefault();
-        console.log(data)
+        post(route('products.store'))
     }
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
